@@ -32,7 +32,8 @@
                                 class="form-control">
                         </div>
                         <div class="mb-3">
-                            <img src="{{ asset('storage/'.$pdk->gambar) }}" class="img-thumbnail" width="100" heigth="100">
+                            <img src="{{ asset('storage/' . $pdk->gambar) }}" class="img-thumbnail" width="100"
+                                heigth="100">
                             <br>
                             <label for="username" class="label-input">Masukkan Gambar:</label>
                             <input type="file" name="gambar" autocomplete="off" class="form-control" required>
